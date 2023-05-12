@@ -3,3 +3,6 @@ export const MOBILE_VENDORS_LIMIT = 7
 
 export const DEFAULT_EVENTS_LIMIT = 20
 export const MOBILE_EVENTS_LIMIT = 7
+
+export const DEFAULT_GUEST_LIMIT = 10000
+export const DEFAULT_AUCTION_DURATION = 3600
