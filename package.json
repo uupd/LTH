@@ -1,7 +1,7 @@
 {
   "name": "LTH with nuxtjs",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt-ts build",
