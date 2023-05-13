@@ -307,7 +307,7 @@ ul li {
   width: 240px;
   position: absolute;
   z-index: 9999;
-  color: #ffffff;
+  color: gray;
   display: grid;
   grid-template-columns: 45px 155px 30px 45px;
   grid-template-areas: '. items . ';
@@ -330,7 +330,7 @@ ul li {
 }
 
 .sidebar__menu__item a {
-  color: white;
+  color: gray;
 }
 
 .sidebar__menu__item-icon {
@@ -339,7 +339,7 @@ ul li {
   grid-area: item-icon;
   float: left;
   margin-left: 2px;
-  background-color: white; /* defines the background color of the image */
+  background-color: gray; /* defines the background color of the image */
   mask: url(/images/svgs/arrow-down.svg) no-repeat center / contain;
   -webkit-mask: url(/images/svgs/arrow-down.svg) no-repeat center / contain;
 }
@@ -368,15 +368,15 @@ ul li {
 .sidebar__menu__child {
   padding-top: 36px;
   padding-left: 0;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .sidebar__menu__child--item {
   @include typography(md-1, narrow);
   padding-bottom: 15px;
-  white-space: nowrap;
+  gray-space: nowrap;
   text-align: left;
-  color: white;
+  color: gray;
   a {
     text-decoration: none;
   }
