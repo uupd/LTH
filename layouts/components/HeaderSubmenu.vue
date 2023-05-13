@@ -68,7 +68,7 @@ export default class HeaderSubmenu extends Vue {
 .header__link-sub-menus {
   width: 100%;
   @include col;
-  background: white;
+  background: gray;
 }
 
 .header__link-sub-menu {
@@ -94,12 +94,12 @@ export default class HeaderSubmenu extends Vue {
 
 <style lang="scss">
 .popover--sub-menu {
-  background: white;
+  background: gray;
   box-shadow: 0 0 black;
   margin: 0;
 
   .popover-inner {
-    background: white;
+    background: gray;
     width: 160px;
     overflow: hidden;
     padding: 0;
